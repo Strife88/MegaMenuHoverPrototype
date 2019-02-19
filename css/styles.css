@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
+h2 {
+display: inline-block;
+font-family: 'PT Sans', sans-serif;
+font-size: 16px;
+color: #4A4A4A;
+width: 165px;
+line-height: 18px;
+margin: 0px;
+color:#4A4A4A;
+}
+
+.RowGroupSecond h2 {
+    font-weight: 400;
+    width: 173px;
+}
+.RowGroupSecond {
+        margin-top:8px;
+        display: flex;
+        flex-direction: column;
+        height: 768px;
+        flex-wrap: wrap;
+}
+.RowGroup{
+    margin-top:191px;
+}
+.RowElement:hover {
+    background: rgba(154,154,154,0.10);
+}
+.RowElement:hover h2 {
+    text-decoration: underline;
+    
+}
+
+.RowElement {
+    padding-top: 6px;
+    padding-bottom:6px;
+    padding-left: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.secondGroup {
+    padding-top: 8px;
+    padding-bottom:8px;
+    
+}
+.RowGroupSecond .RowElement {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.Icon + h2 {
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.Icon {
+    display: inline-block;
+    background-position: center;
+    width: 24px;
+    height: 24px; 
+}
+.icon-small {
+    background: url(/assets/icons/arrowright24-grey.png) no-repeat;
+     background-position: center;
+    width:14px;
+    height:14px;
+}
+.RowElement:hover .icon-small {
+        background: url(/assets/icons/arrowright24-black.png) no-repeat;
+         background-position: center;
+    width:14px;
+    height:14px;
+}
+
+.Icon1 {
+        background: url(/assets/icons/Icon24x24-1.svg) no-repeat;
+}
+.Icon2 {
+        background: url(/assets/icons/Icon24x24-2.svg) no-repeat;
+}
+.Icon3 {
+        background: url(/assets/icons/Icon24x24-3.svg) no-repeat;
+}
+.Icon4 {
+        background: url(/assets/icons/Icon24x24-4.svg) no-repeat;
+}
+.Icon5 {
+        background: url(/assets/icons/Icon24x24-5.svg) no-repeat;
+}
+.Icon6 {
+        background: url(/assets/icons/Icon24x24-6.svg) no-repeat;
+}
+.Icon7 {
+        background: url(/assets/icons/Icon24x24-7.svg) no-repeat;
+}
+.Icon8 {
+        background: url(/assets/icons/Icon24x24-8.svg) no-repeat;
+}
+.Icon9 {
+        background: url(/assets/icons/Icon24x24-9.svg) no-repeat;
+}
+.Icon10 {
+        background: url(/assets/icons/Icon24x24-10.svg) no-repeat;
+}
+.Icon11 {
+        background: url(/assets/icons/Icon24x24-11.svg) no-repeat;
+}
+
+
+
+body {
+  background: black;
+}
+
+
+.menu-container{
+    display: grid;
+}
+.bg {
+    background: url(/assets/bg.jpg);
+    width: 1024px;
+    height: 767px;
+    margin: auto;
+}
+.topLevel{
+    background: url(/assets/TopLevel.png);
+    width:269px;
+    height: 768px;
+    margin-right: 1px;
+    box-shadow: 1px 0 0 0 #F6F5F3;
+}
+.secondLevel{
+    background: white;
+    width: 485px;
+    height: 768px;
+    box-shadow: 1px 0 0 0 #F6F5F3;
+}
+.thirdLevel {
+    background: url(/assets/thirdLevel.png);
+    width:242px;
+    height: 768px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+
+}
